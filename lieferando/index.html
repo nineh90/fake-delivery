@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Lieferfuchs</title>
+</head>
+<body onload="init()">
+<!--Header/Navbar-->
+    <div class="header-container">
+        <div class="row pointer">
+            <img class="take-away-icon" src="img/takeaway.png">
+            <h1>LieferFuchs</h1>
+            <img class="fox-icon" src="img/foxrun.png">
+        </div>
+
+        <div class="delivery-adress pointer">
+            Wo möchtest du essen?
+        </div>
+
+        <div class="row">
+            <img onclick="english()" class="flag-icon pointer" src="img/usflag.png">
+            <img class="flag-icon pointer" src="img/germany.png">
+            <img class="menu-icon pointer" src="img/menubtn.png">
+        </div>
+    </div>
+    <!--Bestellung/ links ca 70%-->
+    <div class="content-container">
+            <img class="header-image" src="img/pizzacomponents.jpg" alt="">
+        <div class="logo-container shadow">
+            <img class="logo" src="img/foxrun.png">    
+        </div> 
+            <div class="food-navbar bg1"> 
+                    <a class="food-btn-navbar" href="#favouriteFood">Beliebte Gerichte</a>
+                    <a class="food-btn-navbar" href="#salad">Salat</a>
+                    <a class="food-btn-navbar" href="#pizza">Pizza</a>
+                    <a class="food-btn-navbar" href="#pasta">Nudelgerichte</a>
+                    <a class="food-btn-navbar" href="#dessert">Dessert</a>
+                    <a class="food-btn-navbar" href="#drinks">Getränke</a>
+            </div>
+        
+        <!--popular Food-->
+        <div class="food-container">
+            <div id="favouriteFood" class="dishes-header bg2">
+                <p>
+                Beliebte Gerichte
+                </p>
+            </div> 
+            
+            <div id="favfood"></div>    
+            <!--Salad-->
+            <div id="salad" class="dishes-header bg1">
+                    <img class="food-header" src="img/salad.jpg" alt="">
+                <p>
+                    Salat
+                </p>
+            </div> 
+            
+            <div id="saladMenu"></div>     
+            <!--pizza-->
+            <div id="pizza" class="dishes-header bg1">
+                    <img class="food-header" src="img/pizza.jpg" alt="">
+                <p>
+                   Pizza
+                </p>
+            </div> 
+
+            <div id="pizzaMenu"></div>  
+            <!--pasta-->
+            <div id="pasta" class="dishes-header bg1">
+                <img class="food-header" src="img/pasta.jpg" alt="">
+            <p>
+               Nudelgerichte
+            </p>
+            </div> 
+
+            <div id="pastaMenu"></div>  
+
+            <!--Dessert-->
+            <div id="dessert" class="dishes-header bg1">
+                <img class="food-header" src="img/dessert.jpg" alt="">
+            <p>
+               Dessert
+            </p>
+            </div> 
+            <div id="dessertMenu"></div> 
+
+            <!--Drinks-->
+            <div id="drinks" class="dishes-header bg1">
+                <img class="food-header" src="img/drink.jpg" alt="">
+            <p>
+               Getränke
+            </p>
+            </div> 
+
+            <div id="drinkMenu"></div>  
+
+        </div>
+         
+        <!--Warenkorb Rechts ca 30%-->
+        <div class="basket-container">
+            <div class="baseket-header bg2">
+                <h2>Warenkorb</h2> 
+            </div>
+            <div class="shadow"></div>
+
+            <div class="basket-content">
+                <div class="basket shadow bg2">
+                    <div>
+                        <img class="trolley-icon" src="img/trolley.png" alt="Einkaufswagen">
+                    </div>
+                    <div>    
+                        <h3>Fülle deinen Warenkorb</h3>
+                        <div class="shadow"></div>
+                        <p>
+                            Wähle dein Essen aus und füge es mit<br> 
+                            <img class="basket-icon" src="img/basket.png"><br>
+                            deinem Warenkorb hinzu.
+                        </p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="json.js"></script>
+    <script src="script.js"></script>
+    <script src="translate.js"></script>
+    <script src="basket.js"></script>
+</body>
+</html>

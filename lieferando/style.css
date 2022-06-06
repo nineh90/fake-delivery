@@ -1,0 +1,270 @@
+body, html{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+    scroll-behavior: smooth;
+}    
+   
+
+
+.bg1{
+    background-color: #fff;
+}
+
+.bg2{
+    background-color: rgb(214, 212, 212);
+}
+
+.shadow{
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(241, 106, 9);
+}
+
+.header-container h1{
+    font-size: larger;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.take-away-icon{
+    width: 45px;
+    height: auto;
+    object-fit: contain;
+    filter: invert(1);
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+.fox-icon{
+    width: 55px;
+    height: auto;
+    object-fit: contain;
+    filter: invert(1);
+    margin-left: 10px;
+}
+
+.delivery-adress{
+    font-size: larger;
+    color: white;
+    text-decoration: underline 25%;
+    
+}
+
+.flag-icon{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 24px;
+    border-radius: 100%;
+    border: solid 2.5px white;
+}
+
+.menu-icon{
+    width: 27px;
+    height: 27px;
+    filter: invert(1);
+    margin-right: 43px;
+    margin-top: 2px;
+}
+
+.content-container{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.header-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.basket-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.baseket-header{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+.basket-content{
+    display: flex;
+    justify-content: center;
+}
+
+.basket{
+    width: 80%;
+    margin-top: 45px;
+    text-align: center;
+    border-radius: 12px;
+   
+}
+
+.basket p{
+    margin: 65px;
+    padding-bottom: 32px;
+    color: grey;
+}
+
+.trolley-icon{
+    width: 65px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 22px;
+
+}
+
+.basket-icon{
+    width: 50px;
+    height: 45px;
+    object-fit: contain;
+    margin: 12px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.logo-container{
+    position: absolute;
+    top: 175px;
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.food-navbar{
+    position: absolute;
+    top: 345px;
+    width: 73%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 999;
+}
+
+
+.food-btn-navbar{
+    border-radius: 12px;
+    background-color:white;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(241, 106, 9);
+    font-size: 18px;
+}
+
+.food-btn-navbar:hover{
+    background-color: rgb(241, 106, 9);
+    color: white;
+}    
+
+.food-container{
+    position: absolute;
+    top: 430px;
+    left: 55px;
+    width: 70%;
+}
+
+.dishes-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 24px;
+    border: solid 3px grey;
+    box-shadow: 2px 2px 2px 2px grey;
+    overflow: hidden;
+    
+}
+
+.dishes-header p{ 
+    margin: 24px;
+    font-size: 23px;
+}
+
+.food-content{
+    position: relative;
+    margin-top: 18px;
+    padding-left: 12px;
+    padding-top: 8px;
+    border-radius: 12px;
+    border: solid 3px grey;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.food-content:hover{
+    border: solid 3px blue;
+    background-color: white;
+}
+
+
+.food-ingredient-container{
+    color: grey;
+    font-size: 18px;
+}
+
+.food-price-container{
+    color: rgb(241, 106, 9);
+    font-size: 28px;
+    margin-top: 24px;
+    font-weight: bolder;
+    padding-bottom: 22px;
+    
+}
+
+.food-header{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.add-basket-btn{
+    width: 35px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    cursor: cell;
+}
+
